@@ -6,7 +6,8 @@ let btn = document.querySelector('.show-weather')
 
 /* ----------------------------- get datas whith API ------------------------------------ */
 inputCity.addEventListener('keydown',(event)=>{
-    if(event.Keycode===13){
+   
+    if(event.keyCode===13){
         getWeather()
     }
 })

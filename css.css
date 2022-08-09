@@ -34,9 +34,9 @@
     display: block !important; 
   }
   .footer{
-    color: red;
+    color: rgb(203, 30, 30);
     margin-bottom: 380px;
-    font-size: 50px;
+    font-size: 40px;
     display: none;
   }
   .detail-container{
