@@ -25,7 +25,15 @@ function getWeather (){
         .then(res => {return res.json()})
         .then( (data) => {
 
-            
+            if(data.weather[0].main==='Clear'){
+                document.body.style.backgroundImage = "url('src/clear.jpg')";
+            }
+            if(data.weather[0].main==='Clouds'){
+                document.body.style.backgroundImage = "url('src/clouds.jpg')";
+            }
+            if(data.weather[0].main==='Rain'){
+                document.body.style.backgroundImage = "url('src/Rain.jpg')";
+            }
             container.insertAdjacentHTML('afterbegin',
                 `
                 <section class="location">
