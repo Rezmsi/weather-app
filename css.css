@@ -16,6 +16,20 @@
     margin-top: 15px;
   }
 
+  .show-weather{
+    cursor: pointer;
+    opacity: 0.5;
+    padding: 2px;
+    margin-left: 7px;
+    border: none;
+    border-radius: 7px;
+  }
+
+  .show-weather:hover{
+    transition: 0.5s;
+    opacity: 1;
+  }
+
   .visible{
     display: block !important; 
   }
